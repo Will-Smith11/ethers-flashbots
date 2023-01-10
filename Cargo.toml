@@ -36,7 +36,7 @@ ethers = { git = "https://github.com/gakonst/ethers-rs.git", default-features = 
 
 [dev-dependencies]
 tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
-ethers = { version = "1.0.0", default-features = false }
+ethers = { git = "https://github.com/gakonst/ethers-rs.git", default-features = false }
 eyre = "0.6"
 
 [features]
